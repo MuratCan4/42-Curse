@@ -6,7 +6,7 @@
 /*   By: mcan <mcan@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/15 16:39:23 by mcan              #+#    #+#             */
-/*   Updated: 2023/02/13 17:09:42 by mcan             ###   ########.fr       */
+/*   Updated: 2023/02/15 17:01:03 by mcan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,4 +47,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	str[k] = '\0';
 	return (str);
 }
-asdmurat canasd
