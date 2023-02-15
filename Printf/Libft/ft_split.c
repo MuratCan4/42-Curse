@@ -6,7 +6,7 @@
 /*   By: mcan <mcan@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/20 11:49:30 by mcan              #+#    #+#             */
-/*   Updated: 2023/02/13 17:06:19 by mcan             ###   ########.fr       */
+/*   Updated: 2023/02/15 16:58:59 by mcan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,16 +73,4 @@ char	**ft_split(char const *s, char c)
 	}
 	split[j] = 0;
 	return (split);
-}
-#include <stdio.h>
-int main ()
-{
-	char k [] = "Murat Can";
-
-	char **m;
-
-	m = ft_split(k,' ');
-
-	printf("%s",m[1]);
-	
 }

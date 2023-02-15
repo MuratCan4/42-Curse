@@ -6,7 +6,7 @@
 /*   By: mcan <mcan@student.42kocaeli.com.tr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/20 12:06:35 by mcan              #+#    #+#             */
-/*   Updated: 2023/02/13 17:07:30 by mcan             ###   ########.fr       */
+/*   Updated: 2023/02/15 16:59:16 by mcan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,4 +30,3 @@ void	*ft_memcpy(void *dest, void const *src, size_t n)
 	}
 	return (dest);
 }
-
